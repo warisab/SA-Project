@@ -13,7 +13,7 @@
                             </div>
                         </div>
                         <div class="widget-content widget-content-area text-center">
-                            <button class="btn btn-danger top-right"></button>
+                            <button class="btn btn-danger top-right">Top Right</button>
                         </div>
                     </div>
                 </div>
