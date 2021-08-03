@@ -274,9 +274,9 @@
                                 {{ set_breadcrumb($page_name, $category_name) }}
                             </ol>
                         </nav>
-
                     </div>
                 </li>
+            
             </ul>
             <ul class="navbar-nav flex-row ml-auto ">
                 <li class="nav-item more-dropdown">
