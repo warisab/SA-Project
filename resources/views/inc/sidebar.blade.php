@@ -48,7 +48,10 @@
                             </li>   
                             <li class="{{ ($page_name === 'notifications') ? 'active' : '' }}">
                                 <a href="{{ route('notification') }}"> Notifications </a>
-                            </li>                         
+                            </li>     
+                            <li class="{{ ($page_name === 'pricing_table') ? 'active' : '' }}">
+                                <a href="{{ route('pricing_tables') }}"> Pricing Tables </a>
+                            </li>                    
                         </ul>
                     </li>
                     <li class="menu {{ ($category_name === 'datatable') ? 'active' : '' }}">

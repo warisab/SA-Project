@@ -82,4 +82,14 @@ class RouteController extends Controller
         ];
         return view('pages.components.component_tabs')->with($data);
     }
+    public function pricing_tables(){
+        $data = [
+            'category_name' => 'components',
+            'page_name' => 'pricing_table',
+            'has_scrollspy' => 0,
+            'scrollspy_offset' => '',
+
+        ];
+        return view('pages.components.component_pricing_table')->with($data);
+    }
 }

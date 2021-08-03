@@ -11,3 +11,4 @@ use App\Http\Controllers\RouteController;
     Route::get('/tables/datatables/basic', [RouteController::class, 'table'])->name('tables');
     Route::get('/components/notifications', [RouteController::class, 'alert'])->name('notification');
     Route::get('/components/tabs', [RouteController::class, 'tabs'])->name('tabs');
+    Route::get('/components/pricing_tables', [RouteController::class, 'pricing_tables'])->name('pricing_tables');
